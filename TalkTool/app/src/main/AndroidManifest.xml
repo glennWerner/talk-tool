@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.glenn.talktool">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme"
+        android:windowSoftInputMode="adjustResize">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            ></activity>
+        <activity
+            android:name=".dialogs.ScriptureDialog"
+            android:theme="@style/MyCustomDialog" />
+        <activity
+            android:name=".dialogs.QuoteDialog"
+            android:theme="@style/MyCustomDialog" />
+        <activity
+            android:name=".activities.AddText"
+            android:parentActivityName=".activities.AddTutorial">
+            <intent-filter android:label="Add to Talk Tool">
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.AddTutorial"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.HelpActivity"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.AboutActivity" android:parentActivityName=".activities.MainActivity"
+            ></activity>
+    </application>
+
+</manifest>

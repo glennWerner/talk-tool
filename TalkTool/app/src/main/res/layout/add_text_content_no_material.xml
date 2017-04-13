@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/add_text_title"
+        android:layout_marginTop="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:hint="@string/title_hint"/>
+    <EditText
+        android:id="@+id/add_text_body"
+        android:layout_below="@id/add_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:hint="@string/body_hint"/>
+
+
+    <Button
+        android:id="@+id/addQuoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_quote_button"
+        android:textColor="@color/windowBackground"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimaryDark"/>
+    <Button
+        android:id="@+id/addScriptureButton"
+        android:layout_width="match_parent"
+        android:layout_above="@id/addQuoteButton"
+        android:layout_height="wrap_content"
+        android:text="@string/add_scripture_button"
+        android:textColor="@color/windowBackground"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/colorPrimaryDark"/>
+</RelativeLayout>

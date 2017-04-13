@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Talk Tool</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TUTORIAL SCREEN  -->
+    <string name="tutorial_instruction">Add scriptures or quotes from the Gospel Library app by using the \"Share Annotation\" feature.</string>
+    <string name="add_custom">Add quote or scripture manually</string>
+    <string name="go_to_gospel_lib">Go to Gospel Library</string>
+
+    <!-- HELP SCREEN  -->
+    <string name="add_item_header">How to Add Scriptures or Quotes from the LDS Gospel Library app</string>
+    <string name="add_item_p1">While in the Gospel Library app highlight some text and click the additional options menu button (3 dots aligned vertically) located in the bottom right corner. Select the \"Share Annotation\" feature.\n</string>
+    <string name="add_item_p2">On the next screen select the Talk Tool app. Once you are in the app then make sure everything is filled out the way you want before clicking the button to add your entry to the quote or scripture list. \n\nNote: If you push one of the plus buttons on the scriptures or quotes page then you will be taken to the tutorial page that has a video showing this process. This page also gives you the option to manually enter in a scripture or quote. \n</string>
+    <string name="add_from_citation_index">How to Add Quotes from the LDS Scripture Citation Index app</string>
+    <string name="add_from_citation_p1">While in the Citation Index app highlight some text and click the share button (Circle with two lines coming from it) located on the top menu bar. Choose the Talk Tool app from the list. Once you are in the app then make sure everything is filled out the way you want before clicking the button to add your entry to the quote list. \n</string>
+    <string name="delete_header">How to Delete Items</string>
+    <string name="delete_p1">To delete all entries and notes from the app select the \"Delete all\" feature from the options menu (3 dots aligned vertically) located on the menu bar on the main screen.\n</string>
+    <string name="delete_p2">To delete a single item from the scripture or quote list press and hold an item in the list. This will bring up an action bar which will give you the option of deleting one or several items.\n</string>
+    <string name="export_header">How to Export Content</string>
+    <string name="export_p1">To export your notes, scriptures and quotes from the app select the \"Export data\" feature from the options menu (3 dots aligned vertically) located on the menu bar on the main screen.\n</string>
+    <string name="export_p2">Select an email service to use and then once you are in the email application send the email to yourself. You will then have access to all of your content on your computer.</string>
+
+    <!-- ADD TEXT SCREEN -->
+    <string name="title_hint">Please enter reference or author here</string>
+    <string name="body_hint">Please enter quote or scripture here</string>
+    <string name="add_quote_button">Add to quote list</string>
+    <string name="add_scripture_button">Add to scripture list</string>
+
+    <!-- DIALOG -->
+    <string name="ok_button">OK</string>
+
+    <!-- CONTEXTUAL MENU -->
+    <string name="delete">Delete</string>
+
+    <!-- MAIN MENU -->
+    <string name="export">Export data</string>
+    <string name="delete_all">Delete all</string>
+
+    <string name="help">Help</string>
+    <string name="refresh">Refresh lists</string>
+    <string name="about">About</string>
+
+    <!-- ABOUT -->
+    <string name="attribution">Talk Tool is an app that helps you organize ideas, scriptures, and quotes for a talk or Sunday School lesson. \n\nThis app has adapted code from the LDS Ponderizer app by Dan Mercer. \n</string>
+    <string name="apache_license"><u>Apache 2.0 License</u>\n</string>
+    <string name="please_rate">Please rate the app and share it with friends! \n</string>
+    <string name="rate"><u>Rate app</u></string>
+    <string name="please_report">\n If you have any questions or are experiencing problems with the app then feel free to send me an email! \n</string>
+    <string name="report"><u>Report problem</u></string>
+</resources>
